@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14C106a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="qfU-q5-sbM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1514" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="qfU-q5-sbM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Scalar Quantities-->
@@ -13,38 +14,60 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Proporties" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KxU-gp-5eQ">
-                                <rect key="frame" x="75" y="264" width="170" height="31"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Properties" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KxU-gp-5eQ">
+                                <rect key="frame" x="215" y="283" width="170" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="170" id="PCa-Zg-aUx"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" indicatorStyle="black" editable="NO" text="Definition of selected topic" translatesAutoresizingMaskIntoConstraints="NO" id="ITZ-dh-4jW">
-                                <rect key="frame" x="16" y="101" width="288" height="141"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Definition" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XvV-v0-4rS">
+                                <rect key="frame" x="227" y="72" width="146" height="27"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="27" id="IA7-Op-tPs"/>
+                                    <constraint firstAttribute="width" constant="146" id="cE5-EN-0oS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" indicatorStyle="black" editable="NO" text="Things that topic can be used with and as" translatesAutoresizingMaskIntoConstraints="NO" id="uuM-fP-E4G">
+                                <rect key="frame" x="16" y="324" width="568" height="256"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Definition" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XvV-v0-4rS">
-                                <rect key="frame" x="87" y="72" width="146" height="27"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" indicatorStyle="black" editable="NO" text="Things that topic can be used with and as" translatesAutoresizingMaskIntoConstraints="NO" id="uuM-fP-E4G">
-                                <rect key="frame" x="16" y="303" width="288" height="175"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" indicatorStyle="black" editable="NO" text="Definition of selected topic" translatesAutoresizingMaskIntoConstraints="NO" id="ITZ-dh-4jW">
+                                <rect key="frame" x="16" y="101" width="568" height="174"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="174" id="dK8-rF-mpK"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="uuM-fP-E4G" firstAttribute="top" secondItem="KxU-gp-5eQ" secondAttribute="bottom" constant="8" symbolic="YES" id="1xW-eD-J7Q"/>
+                            <constraint firstItem="ITZ-dh-4jW" firstAttribute="trailing" secondItem="uuM-fP-E4G" secondAttribute="trailing" id="Ld6-5L-Hb4"/>
+                            <constraint firstItem="XvV-v0-4rS" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="d1a-rK-3vF"/>
+                            <constraint firstAttribute="bottom" secondItem="uuM-fP-E4G" secondAttribute="bottom" constant="20" symbolic="YES" id="fpD-FZ-71Z"/>
+                            <constraint firstItem="ITZ-dh-4jW" firstAttribute="centerX" secondItem="KxU-gp-5eQ" secondAttribute="centerX" id="lNz-h8-DnH"/>
+                            <constraint firstItem="KxU-gp-5eQ" firstAttribute="top" secondItem="ITZ-dh-4jW" secondAttribute="bottom" constant="8" symbolic="YES" id="lsa-ET-NMF"/>
+                            <constraint firstItem="ITZ-dh-4jW" firstAttribute="top" secondItem="XvV-v0-4rS" secondAttribute="bottom" constant="2" id="lxT-jg-WT2"/>
+                            <constraint firstItem="uuM-fP-E4G" firstAttribute="leading" secondItem="ITZ-dh-4jW" secondAttribute="leading" id="pB0-np-kVg"/>
+                            <constraint firstItem="ITZ-dh-4jW" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="tD2-bQ-Pzm"/>
+                            <constraint firstItem="ITZ-dh-4jW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="u0K-l6-chX"/>
+                            <constraint firstItem="ITZ-dh-4jW" firstAttribute="centerX" secondItem="XvV-v0-4rS" secondAttribute="centerX" id="wo5-UH-M6Y"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Scalar Quantities" id="gbt-G3-xFv"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="definitionLable" destination="ITZ-dh-4jW" id="GF9-QL-w67"/>
                         <outlet property="proportyLable" destination="uuM-fP-E4G" id="e5X-TD-Qa7"/>
@@ -52,16 +75,18 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1763" y="670"/>
+            <point key="canvasLocation" x="2158" y="668"/>
         </scene>
         <!--iPhysics-->
         <scene sceneID="yUW-MV-OAL">
             <objects>
                 <tableViewController id="RES-la-iny" customClass="MainTableViewController" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="50" sectionHeaderHeight="22" sectionFooterHeight="22" id="sJQ-Ae-4Yq">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" indicatorStyle="black" keyboardDismissMode="interactive" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="sJQ-Ae-4Yq">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="separatorColor" white="0.33000000000000002" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TableCell" rowHeight="50" id="HIK-KX-ynd" customClass="TableCell">
                                 <autoresizingMask key="autoresizingMask"/>
@@ -88,26 +113,27 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="iPhysics" id="ggg-K1-Zy1"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wh1-Ce-FGa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <imageView userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="eyePhysics.png" id="94X-6p-pvD">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
             </objects>
-            <point key="canvasLocation" x="1206" y="668"/>
+            <point key="canvasLocation" x="1441" y="668"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Wgu-AU-3dC">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qfU-q5-sbM" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="P99-VR-vY2">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="blackTranslucent" id="P99-VR-vY2">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="tintColor" red="0.85643544819999995" green="0.78899891089999996" blue="0.1943866756" alpha="1" colorSpace="calibratedRGB"/>
-                        <color key="barTintColor" red="0.0" green="0.60819100415476268" blue="0.61436631944444442" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                         <textAttributes key="titleTextAttributes">
                             <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="23"/>
-                            <color key="textColor" red="0.8564354482323232" green="0.78899891090793184" blue="0.19438667558652367" alpha="1" colorSpace="calibratedRGB"/>
                         </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -117,7 +143,10 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TqU-Yv-uX8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="618" y="670"/>
+            <point key="canvasLocation" x="619" y="668"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="eyePhysics.png" width="1024" height="1024"/>
+    </resources>
 </document>

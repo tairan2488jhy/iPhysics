@@ -15,6 +15,8 @@
 		29FC90CE19B1252F00F35EE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29FC90CC19B1252F00F35EE2 /* Main.storyboard */; };
 		29FC90D019B1252F00F35EE2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29FC90CF19B1252F00F35EE2 /* Images.xcassets */; };
 		29FC90DC19B1252F00F35EE2 /* iPhysics__study_guideTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FC90DB19B1252F00F35EE2 /* iPhysics__study_guideTests.m */; };
+		4D06EE261AC4DE0200AA0033 /* eyePhysics.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D06EE251AC4DE0200AA0033 /* eyePhysics.png */; };
+		4D06EE281AC4E0CC00AA0033 /* eyePhysics background.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D06EE271AC4E0CC00AA0033 /* eyePhysics background.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		29FC90D519B1252F00F35EE2 /* iPhysics: study guideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iPhysics: study guideTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29FC90DA19B1252F00F35EE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29FC90DB19B1252F00F35EE2 /* iPhysics__study_guideTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPhysics__study_guideTests.m; sourceTree = "<group>"; };
+		4D06EE251AC4DE0200AA0033 /* eyePhysics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = eyePhysics.png; path = ../../../../Downloads/eyePhysics.png; sourceTree = "<group>"; };
+		4D06EE271AC4E0CC00AA0033 /* eyePhysics background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "eyePhysics background.png"; path = "../../../../Downloads/eyePhysics background.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,8 @@
 				29FC90C919B1252F00F35EE2 /* ViewController.h */,
 				29FC90CA19B1252F00F35EE2 /* ViewController.m */,
 				29FC90CF19B1252F00F35EE2 /* Images.xcassets */,
+				4D06EE251AC4DE0200AA0033 /* eyePhysics.png */,
+				4D06EE271AC4E0CC00AA0033 /* eyePhysics background.png */,
 				29FC90C219B1252F00F35EE2 /* Supporting Files */,
 			);
 			path = "iPhysics: study guide";
@@ -206,7 +212,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D06EE261AC4DE0200AA0033 /* eyePhysics.png in Resources */,
 				29FC90CE19B1252F00F35EE2 /* Main.storyboard in Resources */,
+				4D06EE281AC4E0CC00AA0033 /* eyePhysics background.png in Resources */,
 				29FC90D019B1252F00F35EE2 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,6 +357,7 @@
 				INFOPLIST_FILE = "iPhysics: study guide/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -360,6 +369,7 @@
 				INFOPLIST_FILE = "iPhysics: study guide/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

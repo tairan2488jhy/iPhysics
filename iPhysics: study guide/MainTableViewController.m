@@ -25,23 +25,32 @@
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 	
-	self.tableView.separatorColor = [UIColor colorWithRed:0/255.0 green:181/255.0 blue:13/255.0 alpha:0.5];
+	self.tableView.separatorColor = [UIColor colorWithRed:84/255.0 green:84/255.0 blue:84/255.0 alpha:0.5];
+    //self.tableView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"eyePhysics background.png"]];
 	
 	UIBarButtonItem *newBackButton = [[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStylePlain target:nil action:nil];
 	[[self navigationItem] setBackBarButtonItem:newBackButton];
 	
-	_Title = @[@"Scalar quantities",
-			   @"Vector quantites",
-			   @"Displacement",];
-	
-	_Definition = @[@"Scalare quantities fully describe magnitude. For example, 3 meters or 34°C",
-					@"Vector quantities are physical quantities that have both direction and magnitude. For example 5 meters east.",
-					@"Describes how much an objects position has changed.",];
-	
-	_Proporties = @[@"A scalar's measurment is defined by a number called the module or intensity.",
-					@"A scalar's measurment is defined by a number called the module or intensity.",
-					@"It is a vector, and its standard unit is the metre (m).",];
-	
+    _Title = @[@"Scalar quantities",
+               @"Vector quantites",
+               @"Displacement",
+               @"Distance",
+               @"Velocity",
+               @"Acceleration"];
+    
+    _Definition = @[@"Scalare quantities fully describe magnitude. For example, 3 meters or 34°C",
+                    @"Vector quantities are physical quantities that have both direction and magnitude. For example 5 meters east.",
+                    @"Describes how much an objects position has changed.",
+                    @"Describes how much an object moves.",
+                    @"Velocity is the rate of change of the displacement of an object, or the difference in final and initiall velocities.",
+                    @"Acceleration is the rate of change in velocity of an object."];
+    
+    _Proporties = @[@"A scalar's measurment is defined by a number called the module or intensity.",
+                    @"A scalar's measurment is defined by a number called the module or intensity.",
+                    @"It is a vector, and its standard unit is the metre (m).",
+                    @"It is a scalar, and its standard unit is the metre (m).",
+                    @"Velocity is a vector quantity. It is described with a speed in m/s and a direction.1",
+                    @"Acceleration is a vector quantity. It is described with an acceleration rate measured in m/s^2 and a direction. Acceleration is the result of all forces acting on an object which is shown by Newton's second law of motion; F_net = ma.\n\nAverage acceleration\na_av = \Delta V / \Delta t \n\nInstantaneous acceleration\na = lim_t->0 \Delta V / \Delta t \n\n"];
 	
 	
 }
@@ -54,13 +63,13 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Potentially incomplete method implementation.
+//#warning Potentially incomplete method implementation.
     // Return the number of sections.
     return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete method implementation.
+//#warning Incomplete method implementation.
     // Return the number of rows in the section.
     return _Title.count;
 }
