@@ -77,7 +77,7 @@
             </objects>
             <point key="canvasLocation" x="2158" y="668"/>
         </scene>
-        <!--iPhysics-->
+        <!--eyePhysics-->
         <scene sceneID="yUW-MV-OAL">
             <objects>
                 <tableViewController id="RES-la-iny" customClass="MainTableViewController" sceneMemberID="viewController">
@@ -112,13 +112,9 @@
                             <outlet property="delegate" destination="RES-la-iny" id="t3k-dQ-cDs"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="iPhysics" id="ggg-K1-Zy1"/>
+                    <navigationItem key="navigationItem" title="eyePhysics" id="ggg-K1-Zy1"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wh1-Ce-FGa" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <imageView userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="eyePhysics.png" id="94X-6p-pvD">
-                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                </imageView>
             </objects>
             <point key="canvasLocation" x="1441" y="668"/>
         </scene>
@@ -146,7 +142,4 @@
             <point key="canvasLocation" x="619" y="668"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="eyePhysics.png" width="1024" height="1024"/>
-    </resources>
 </document>
