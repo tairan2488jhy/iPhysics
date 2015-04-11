@@ -17,6 +17,8 @@
 		29FC90DC19B1252F00F35EE2 /* iPhysics__study_guideTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FC90DB19B1252F00F35EE2 /* iPhysics__study_guideTests.m */; };
 		4D06EE261AC4DE0200AA0033 /* eyePhysics.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D06EE251AC4DE0200AA0033 /* eyePhysics.png */; };
 		4D06EE281AC4E0CC00AA0033 /* eyePhysics background.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D06EE271AC4E0CC00AA0033 /* eyePhysics background.png */; };
+		4DD454341AD340BC00C5F4E2 /* ConverterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD454331AD340BC00C5F4E2 /* ConverterViewController.m */; };
+		4DD454371AD35A6B00C5F4E2 /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD454361AD35A6B00C5F4E2 /* CalculatorViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,10 @@
 		29FC90DB19B1252F00F35EE2 /* iPhysics__study_guideTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPhysics__study_guideTests.m; sourceTree = "<group>"; };
 		4D06EE251AC4DE0200AA0033 /* eyePhysics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = eyePhysics.png; path = ../../../../Downloads/eyePhysics.png; sourceTree = "<group>"; };
 		4D06EE271AC4E0CC00AA0033 /* eyePhysics background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "eyePhysics background.png"; path = "../../../../Downloads/eyePhysics background.png"; sourceTree = "<group>"; };
+		4DD454321AD340BC00C5F4E2 /* ConverterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConverterViewController.h; sourceTree = "<group>"; };
+		4DD454331AD340BC00C5F4E2 /* ConverterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConverterViewController.m; sourceTree = "<group>"; };
+		4DD454351AD35A6B00C5F4E2 /* CalculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorViewController.h; sourceTree = "<group>"; };
+		4DD454361AD35A6B00C5F4E2 /* CalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,10 @@
 				290847671A7AB68B009F1151 /* TableCell.m */,
 				29FC90C919B1252F00F35EE2 /* ViewController.h */,
 				29FC90CA19B1252F00F35EE2 /* ViewController.m */,
+				4DD454321AD340BC00C5F4E2 /* ConverterViewController.h */,
+				4DD454331AD340BC00C5F4E2 /* ConverterViewController.m */,
+				4DD454351AD35A6B00C5F4E2 /* CalculatorViewController.h */,
+				4DD454361AD35A6B00C5F4E2 /* CalculatorViewController.m */,
 				29FC90CF19B1252F00F35EE2 /* Images.xcassets */,
 				4D06EE251AC4DE0200AA0033 /* eyePhysics.png */,
 				4D06EE271AC4E0CC00AA0033 /* eyePhysics background.png */,
@@ -188,7 +198,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 29FC90BA19B1252F00F35EE2 /* Build configuration list for PBXProject "iPhysics: study guide" */;
+			buildConfigurationList = 29FC90BA19B1252F00F35EE2 /* Build configuration list for PBXProject "eyeLozics" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -236,8 +246,10 @@
 				290847651A7AB443009F1151 /* MainTableViewController.m in Sources */,
 				29FC90CB19B1252F00F35EE2 /* ViewController.m in Sources */,
 				29FC90C819B1252F00F35EE2 /* AppDelegate.m in Sources */,
+				4DD454341AD340BC00C5F4E2 /* ConverterViewController.m in Sources */,
 				290847681A7AB68B009F1151 /* TableCell.m in Sources */,
 				29FC90C519B1252F00F35EE2 /* main.m in Sources */,
+				4DD454371AD35A6B00C5F4E2 /* CalculatorViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,7 +422,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		29FC90BA19B1252F00F35EE2 /* Build configuration list for PBXProject "iPhysics: study guide" */ = {
+		29FC90BA19B1252F00F35EE2 /* Build configuration list for PBXProject "eyeLozics" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				29FC90DD19B1252F00F35EE2 /* Debug */,

@@ -17,7 +17,7 @@
                BlueprintIdentifier = "29FC90BE19B1252F00F35EE2"
                BuildableName = "iPhysics: study guide.app"
                BlueprintName = "iPhysics: study guide"
-               ReferencedContainer = "container:iPhysics: study guide.xcodeproj">
+               ReferencedContainer = "container:eyeLozics.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -31,7 +31,7 @@
                BlueprintIdentifier = "29FC90D419B1252F00F35EE2"
                BuildableName = "iPhysics: study guideTests.xctest"
                BlueprintName = "iPhysics: study guideTests"
-               ReferencedContainer = "container:iPhysics: study guide.xcodeproj">
+               ReferencedContainer = "container:eyeLozics.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -49,7 +49,7 @@
                BlueprintIdentifier = "29FC90D419B1252F00F35EE2"
                BuildableName = "iPhysics: study guideTests.xctest"
                BlueprintName = "iPhysics: study guideTests"
-               ReferencedContainer = "container:iPhysics: study guide.xcodeproj">
+               ReferencedContainer = "container:eyeLozics.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -59,7 +59,7 @@
             BlueprintIdentifier = "29FC90BE19B1252F00F35EE2"
             BuildableName = "iPhysics: study guide.app"
             BlueprintName = "iPhysics: study guide"
-            ReferencedContainer = "container:iPhysics: study guide.xcodeproj">
+            ReferencedContainer = "container:eyeLozics.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -79,7 +79,7 @@
             BlueprintIdentifier = "29FC90BE19B1252F00F35EE2"
             BuildableName = "iPhysics: study guide.app"
             BlueprintName = "iPhysics: study guide"
-            ReferencedContainer = "container:iPhysics: study guide.xcodeproj">
+            ReferencedContainer = "container:eyeLozics.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -98,7 +98,7 @@
             BlueprintIdentifier = "29FC90BE19B1252F00F35EE2"
             BuildableName = "iPhysics: study guide.app"
             BlueprintName = "iPhysics: study guide"
-            ReferencedContainer = "container:iPhysics: study guide.xcodeproj">
+            ReferencedContainer = "container:eyeLozics.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
